@@ -22,22 +22,22 @@ const music_list = [
     {
         name : 'Mẹ yêu con',
         artist : 'Nhà tinh hoa (ATVNCG)',
-        music : './sound/meyeucon.mp3'
+        music : '../sound/meyeucon.mp3'
     },
     {
         name : 'Thịnh Vượng Việt Nam Sáng Ngời',
         artist : 'buitruonglinh',
-        music : './sound/thinhvuongvietnam.mp3'
+        music : '../sound/thinhvuongvietnam.mp3'
     },
     {
         name : 'MỘT VÒNG VIỆT NAM',
         artist : 'Tùng Dương',
-        music : './sound/motvongvietnam.mp3'
+        music : '../sound/motvongvietnam.mp3'
     },
     {
         name : 'Mashup Đất việt tiếng vọng ngàn đời, Hào khí Việt Nam',
         artist : 'TLong',
-        music : './sound/mashupdatviet_hoakhi.mp3'
+        music : '../sound/mashupdatviet_hoakhi.mp3'
     }
 ];
 
