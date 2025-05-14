@@ -1,1 +1,2 @@
-sound/* linguist-vendored
+sound/
+*.mp3
