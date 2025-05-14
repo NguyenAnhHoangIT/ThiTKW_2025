@@ -1,11 +1,11 @@
 const images = [
-            '/img/char/hanhtrinh1.png',
-            '/img/char/hanhtrinh2.png',
-            '/img/char/hanhtrinh3.png',
-            '/img/char/hanhtrinh4.png',
-            '/img/char/hanhtrinh5.png',
-            '/img/char/hanhtrinh6.png',
-            '/img/char/hanhtrinh7.png',
+            './img/char/hanhtrinh1.png',
+            './img/char/hanhtrinh2.png',
+            './img/char/hanhtrinh3.png',
+            './img/char/hanhtrinh4.png',
+            './img/char/hanhtrinh5.png',
+            './img/char/hanhtrinh6.png',
+            './img/char/hanhtrinh7.png',
         ];
 
         // DOM Elements
