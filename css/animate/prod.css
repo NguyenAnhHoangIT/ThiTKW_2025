@@ -698,7 +698,7 @@
 .taydu_mansite_news_event .inner .effect_mountain--left,.taydu_mansite_news_event .inner .effect_mountain--right {
     display: block;
     font-size: 0;
-    background-image: url(../../img/event/_sprites.png);
+    background-image: url(../../img/event/_sprites_event.png);
     position: absolute;
     bottom: -30px
 }
@@ -791,7 +791,7 @@
 .taydu_mansite_char .inner .btn_more {
     display: block;
     font-size: 0;
-    background-image: url(../prod/taydu_mansite/char/_sprites.png);
+    background-image: url(../prod/taydu_mansite/char/_sprites_char.png);
     background-position: -837px -774px;
     width: 189px;
     height: 46px;
@@ -840,7 +840,7 @@
 .taydu_mansite_char .inner .effect_mountain--left,.taydu_mansite_char .inner .effect_mountain--right {
     display: block;
     font-size: 0;
-    background-image: url(../../img/char/_sprites.png);
+    background-image: url(../../img/char/_sprites_char.png);
     position: absolute;
     bottom: -30px
 }
@@ -855,7 +855,7 @@
 .taydu_mansite_char .inner .effect_mountain--hoa {
     display: block;
     font-size: 0;
-    background-image: url(../../img/char/_sprites.png);
+    background-image: url(../../img/char/_sprites_char.png);
     background-position: -401px -620px;
     width: 434px;
     height: 279px;
@@ -1202,7 +1202,7 @@
     content: "";
     display: block;
     font-size: 0;
-    background-image: url(../../img/floatleft/_sprites.png);
+    background-image: url(../../img/floatleft/_sprites_floatleft.png);
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -6930,7 +6930,7 @@ ul.schedule li ul li {
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/lekyniem/candle.gif); /* replace with your gif */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/lekyniem/candle.gif); /* replace with your gif */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -7038,7 +7038,7 @@ ul.schedule li ul li {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-image: url(/img/music_note.jpg);
+    background-image: url(../../img/music_note.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
