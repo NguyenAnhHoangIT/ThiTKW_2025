@@ -1,2 +1,2 @@
 sound/
-*.mp3
+*.mp3 filter=lfs diff=lfs merge=lfs -text
