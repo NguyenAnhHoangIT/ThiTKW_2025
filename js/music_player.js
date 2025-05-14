@@ -24,7 +24,7 @@ const music_list = [
     {
         name : 'Mẹ yêu con',
         artist : 'Nhà tinh hoa (ATVNCG)',
-        music : '../sound/meyeucon.mp3'
+        music : 'sound/meyeucon.mp3'
     },
     {
         name : 'Thịnh Vượng Việt Nam Sáng Ngời',
