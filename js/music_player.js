@@ -34,7 +34,7 @@ const music_list = [
     {
         name : 'Mashup Đất việt tiếng vọng ngàn đời, Hào khí Việt Nam',
         artist : 'TLong',
-        music : './sound/mashupdatviet_hoakhi.mp3'
+        music : './sound/mashupdatviet_hoakhi.MP3'
     }
 ];
 
