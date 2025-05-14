@@ -27,14 +27,9 @@ const music_list = [
         music : './sound/meyeucon.MP3'
     },
     {
-        name : 'Thịnh Vượng Việt Nam Sáng Ngời',
-        artist : 'buitruonglinh',
-        music : './sound/thinhvuongvietnam.mp3'
-    },
-    {
         name : 'MỘT VÒNG VIỆT NAM',
         artist : 'Tùng Dương',
-        music : './sound/motvongvietnam.mp3'
+        music : './sound/motvongvietnam.MP3'
     },
     {
         name : 'Mashup Đất việt tiếng vọng ngàn đời, Hào khí Việt Nam',
