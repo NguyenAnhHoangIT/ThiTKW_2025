@@ -1258,7 +1258,6 @@
 
 .taydu_mansite_floatleft .group__menu .menu__link {
     position: absolute;
-    top: 70%;
     left: 30px
 }
 
@@ -4581,6 +4580,10 @@ body {
   background-color: #2F9AFF;
   z-index: 0;
   animation: body-bg 1s ease-in-out forwards;
+  background-image: linear-gradient(rgba(47, 154, 255, 0.9), rgba(47, 154, 255, 0.9)), url('../../video/dangCS.gif'); /* Replace with your actual GIF path */
+  background-size: cover; /* Adjust to your preference */
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @keyframes body-bg {
@@ -4639,10 +4642,12 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 3rem;
+  font-size: 4rem;
   color: #fff;
   letter-spacing: 5px;
+  font-weight: bold;
 }
+
 
 .text__left {
     opacity: 0;
@@ -4803,34 +4808,23 @@ body {
     position: absolute;
     width: 30%;
     padding: 20px;
-    border-radius: 10px;
-    font-size: 2rem;
-    line-height: 1.5;
+    font-size: 5rem;
     top: 71%;
-    height: 250px;
     overflow-y: auto;
     z-index: 20;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     opacity: 0;
     animation: fade-in 1s ease-in-out forwards;
     animation-delay: 1s;
-    background-image: linear-gradient( to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) );
-    backdrop-filter: blur(4px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .content-box-left {
     left: 17%;
     color: #fff;
-    border-left: 4px solid #2F99FD;
-    border-right: 4px solid #2F99FD;
 }
 
 .content-box-right {
-    right: 17%;
+    right: 10%;
     color: #232637;
-    border-left: 4px solid #DB2017;
-    border-right: 4px solid #DB2017;
 }
 
 @keyframes fade-in {
@@ -5902,7 +5896,7 @@ table tr td {
     padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     border-radius: 20px;
 }
 
@@ -6054,7 +6048,6 @@ table tr td {
     position: relative;
     width: 80%;
     height: 600px;
-    overflow: hidden;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -6380,10 +6373,12 @@ table tr td {
 
 .khangchien-navbar {
     display: flex;
+    width: 50%;
     background-color: #DB2017;
 }
 
 .khangchien-nav-item {
+    width: 100%;
     padding: 15px 25px;
     color: white;
     cursor: pointer;
@@ -6393,6 +6388,8 @@ table tr td {
 
 .khangchien-nav-item:hover {
     background-color: #2F9AFF;
+    color: #000;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
 }
 
 .khangchien-nav-item.khangchien-active {
@@ -6611,7 +6608,7 @@ table tr td {
 
 .lekyniem-timeline-container {
     position: relative;
-    width: 100%;
+    width: fit-content;
     height: 117vh;
     display: flex;
     justify-content: center;
@@ -6637,7 +6634,7 @@ table tr td {
 
 .lekyniem-timeline-item {
     position: relative;
-    width: 200px;
+    width: 300px;
     cursor: pointer;
     z-index: 1;
 }
@@ -6847,20 +6844,23 @@ table tr td {
     object-position: center;
     background-repeat: no-repeat;
 }
-.lekyniem-content-container-special2 {
-    position: relative;
-    display: flex;
+
+.lekyniem-timeline-item-special2 {
     width: fit-content;
-    height: fit-content;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-    z-index: 2;
-    margin: 0 0 0 200px;
+    height: 80%;
+    margin-left: 100px;
+    padding: 20px;
 }
 
+
 .lekyniem-left-content-special2 {
-    width: 1000px;
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
     transition: width 0.3s ease;
+    background-color: #F9F3EA;
+    border-radius: 20px;
 }
 
 ul.schedule {
@@ -6914,72 +6914,24 @@ ul.schedule li ul li {
     margin-top: 4px;
 }
 
-.sinhnhat-main-container {
-    width: 100%;
-    margin: 40px auto;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/lekyniem/candle.gif); /* replace with your gif */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 /* ====== Header with animated border ====== */
 .sinhnhat-head-container {
-    width: 100%;
-    height: 100%;
-    background: #fff;
+    width: fit-content;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    border-radius: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0px 0px 10%;
 }
 
 .sinhnhat-head-container h1 {
-    z-index: 1;
     color: black;
     font-size: 2em;
-    text-align: center;
-}
-
-.sinhnhat-head-container::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 130%;
-    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
-    animation: rotBGimg 5s linear infinite;
-    transition: all 0.2s linear;
-}
-
-.sinhnhat-head-container::after {
-    content: '';
-    position: absolute;
-    inset: 5px;
-    background: #fff;
-    border-radius: 15px;
-}
-
-@keyframes rotBGimg {
-    from {
-    transform: rotate(0deg);
-    }
-    to {
-    transform: rotate(360deg);
-    }
 }
 
 /* ====== Content Layout ====== */
-.sinhnhat-content-container {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
 
 .sinhnhat-left-part {
     flex: 1;
@@ -7035,6 +6987,7 @@ ul.schedule li ul li {
     bottom: 20px;
     right: 20px;
     cursor: pointer;
+    color: #fff;
 }
 
 .music-wrapper{
@@ -7044,7 +6997,9 @@ ul.schedule li ul li {
     border: 1px solid transparent;
     padding: 10px;
     border-radius: 20px;
-    background-color: #ddd;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     display: none;
     top: -100%;
@@ -7052,8 +7007,8 @@ ul.schedule li ul li {
     transform: translate(-40%, -30%);
 }
 .music-container:hover {
-    transform: translateY(-5px); /* Move the whole container up */
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px, rgba(0, 0, 0, 0.05) 0px 10px 10px;
+    transform: translateY(-5px);
+    box-shadow: rgba(208, 140, 47, 0.5) 0px 5px 20px, rgba(252, 184, 75, 0.4) 0px 10px 10px;
 }
 .music-container:hover .music-wrapper{
     display: block;
@@ -7073,13 +7028,13 @@ ul.schedule li ul li {
 }
 
 .track-name {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .track-artist {
     width: 100%;
     margin-top: 5px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis
@@ -7231,4 +7186,105 @@ p {
 }
 .stroke:nth-child(7){
     animation-delay: 0s;
+}
+
+.kyniem50nam {
+  font-size: 1.5em;
+  font-weight: bold;
+  background: linear-gradient(45deg, #2196F3, #00BCD4); /* Blue gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  animation: pop 1s ease-in-out;
+}
+
+.kyniem135nam {
+  font-size: 1.5em;
+  font-weight: bold;
+  background: linear-gradient(45deg, #FF4081, #FFD740); /* Pink to yellow */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  animation: pop 1s ease-in-out;
+}
+
+@keyframes pop {
+  0% { transform: scale(0.8); opacity: 0; }
+  50% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+.khangchien-timeline-container {
+  position: relative;
+  padding-left: 40px;
+}
+
+.khangchien-timeline-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 12px;
+  width: 6px;
+  background: #007bff;
+}
+
+.khangchien-timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.khangchien-timeline-dot {
+  position: absolute;
+  left: -8px;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 4px solid #007bff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.khangchien-timeline-content {
+  padding-left: 30px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.khangchien-timeline-content h3 {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #007bff;
+}
+
+.khangchien-timeline-content p {
+  margin: 5px 0;
+}
+
+.lekyniem-content-container-special2 {
+    height: 100%;
+}
+
+.sinhnhat-content-container {
+    height: 100%;
+    display: grid;
+      grid-auto-flow: column;
+      gap: 16px;
+      grid-template-rows: 200px 200px 200px;
+      padding: 16px;
+}
+
+.gallery-item img{
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
 }
